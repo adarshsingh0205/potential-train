@@ -1,8 +1,15 @@
-print ("Pattern C")
-for e in range (11,0,-1):
-    print((11-e) * ' ' + e * '*')
-
-print ('')
-print ("Pattern D")
-for g in range (11,0,-1):
-    print(g * ' ' + (11-g) * '*')
+//printing ("*")
+row = int(input("Enter the number of rows: "))
+n = row
+while n >= 0:
+    x =  "*" * n
+    print(x)
+    n - = 1
+//print('*')
+row = int(input('enter the no of rows"))
+n = row
+p = 1
+while p<=n:
+    x = "*" * p
+        print(x)
+        p + = 1
